@@ -1,0 +1,8 @@
+START TRANSACTION;
+
+CREATE TABLE chickens (
+    chicken_id INT AUTO_INCREMENT PRIMARY KEY,
+    breed VARCHAR(50)
+);
+
+COMMIT;
